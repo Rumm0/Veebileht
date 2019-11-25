@@ -46,3 +46,28 @@ body {
   text-align: center;
   background-color: #ddd;
 }
+
+.column {
+  flex: 50%;
+  margin: 40px;
+  line-height: 30px ;
+}
+.row {
+  display: flex;
+}
+
+#map {
+  height: 300px;
+  width: 500px;
+}
+
+
+.kontakt-pilt {
+  width: 150px;
+  height: 120px;
+}
+
+.taust {
+  background-color: cadetblue;
+  background-blend-mode: multiply;
+}

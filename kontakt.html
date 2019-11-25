@@ -1,12 +1,42 @@
 <!DOCTYPE html>
 <html>
 <meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="veebileht.css">
 
 <head>
-    <title>Kontakt</title>
+    <title>Korp! Piro</title>
+    <link rel="stylesheet" type="text/css" href="veebileht.css">
+    <script src="script.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_aH-w1XPXaeqa6_z5CHVbflk_0MYdK7I&callback=initMap"></script>
 </head>
+
 <body>
-    
+    <div>
+        <a  href="./veebileht.html"><img style="text-align: center;" src="./pildid/logo1.png" alt="logo1"></a>
+    </div>
+
+    <div class="riba">
+        <a href="./veebileht.html" class="active">Kodu</a>
+        <a href="./kontakt.html">Kontakt</a>
+        <a href="#">Astu liikmeks</a>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <img src="./pildid/kontakt.png" class="kontakt-pilt" alt="kontakt">
+            <p>E-post: pirogov@pirogov.ee <br>
+                Telefon: (+372) 5149785x <br>
+                Aadress: Lossi 3, 51003 Tartu <br>
+            </p>
+        </div>
+        <div class="column">
+            <h2>Google Map</h2>
+            <div id="map">
+            </div>
+        </div>
+    </div>
+
+
 </body>
+
 </html>
