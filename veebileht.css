@@ -6,8 +6,15 @@ body {
 .pealkiri {
   padding: 80px;
   text-align: center;
-  background: #1abc9c;
+  background-image: url("pildid/pirosuur.jpg");
   color: white;
+
+}
+
+.piro{
+  border: 1px;
+  border-style: solid;
+  font-size:12px;
 }
 
 .pealkiri h1 {
