@@ -13,8 +13,11 @@ body {
 
 .piro{
   border: 1px;
+  border-color:white;
   border-style: solid;
   font-size:12px;
+  text-align: center;
+  background-color: darkgreen;
 }
 
 .pealkiri h1 {

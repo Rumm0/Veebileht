@@ -8,22 +8,22 @@
     text-align: center;
   }
 .Slidid img{
-    width:300px;
-    height: 200px;
+    width:600px;
+    height: 400px;
     float: left;
 
 }
 .kõrvuti {
     display: table;
     width: 100%;
-    height: auto;
+    height: 400px;
     overflow: auto;
     table-layout: fixed;
 }
 .tekst {
     display: table-cell;
     text-align: left;
-    vertical-align: middle;
+    margin-bottom: 25%;
     float: left;
     width: auto;
 }
@@ -31,4 +31,23 @@
     display: table-cell;
     text-align: center;
 }
+
+ .liikmed img{
+     width: 250px;
+     height: 250px;
+     border-radius: 50%;
+ }
+ 
+ .liikmed{
+    width:400px;
+    margin:0 auto;
+    display: grid;
+    align-items: center;
+ }
+ .liikmed p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    float: right;
+    vertical-align: center;
+ }
 
