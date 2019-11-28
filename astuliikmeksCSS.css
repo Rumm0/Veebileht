@@ -31,23 +31,48 @@
     display: table-cell;
     text-align: center;
 }
+.Slidid img{
+    border-radius: 5%;
+    
+}
 
- .liikmed img{
+ .sisu1 img{
      width: 250px;
      height: 250px;
      border-radius: 50%;
+     margin: auto;
+     float: left;
+     align-content: center;
  }
  
- .liikmed{
-    width:400px;
-    margin:0 auto;
-    display: grid;
-    align-items: center;
- }
- .liikmed p{
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    float: right;
-    vertical-align: center;
- }
+ .liikmed{ 
+    display: table; 
+}
+.liige{ 
+    width:100%;
+    display: table-row;
+    align-items: center; 
+    margin-top: 30px;
+}
+.sisu1{ 
+    position: relative;
+    display: table-cell;
+    width: 50%;
+    height: 100%;
+    float:left;
 
+ }
+ .sisu2{
+    position: relative;
+    display: table-cell;
+    height: 100%;
+    width: 50%;
+    float:left;
+
+
+ }
+}
+.liige{
+    display: table-cell;
+    text-align: center;
+}

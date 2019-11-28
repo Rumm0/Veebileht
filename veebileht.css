@@ -52,9 +52,11 @@ body {
 }
 
 .lõpp{
-  padding: 20px;
+  padding: 30px;
   text-align: center;
   background-color: #ddd;
+  position: sticky;
+  margin-top: 1000px;
 }
 
 .column {
