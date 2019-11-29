@@ -23,40 +23,13 @@
     width: 500px;
   }
 
-.alapealkiri{
-    text-align: center;
-  }
-.Slidid img{
-    width:600px;
-    height: 400px;
-    float: left;
-
-}
-.kõrvuti {
-    display: table;
-    width: 100%;
-    height: 400px;
-    overflow: auto;
-    table-layout: fixed;
-}
-.tekst {
-    display: table-cell;
-    text-align: left;
-    margin-bottom: 25%;
-    float: left;
-    width: auto;
-}
-.Slidid {
-    display: table-cell;
-    text-align: center;
-}
-
 .liikmed img{
      width: 250px;
      height: 250px;
      border-radius: 50%;
+     object-fit: cover;
 }
- 
+
 .liikmed {
     width:400px;
     margin:0 auto;
