@@ -3,6 +3,13 @@ body {
   margin: 0;
 }
 
+.tekst1{
+  position: sticky;
+  margin-left: 50px;
+  width: 500px;
+  text-align: center;
+}
+
 .pealkiri {
   padding: 80px;
   text-align: center;
