@@ -5,7 +5,7 @@
 <head>
     <title>Korp! Piro</title>
     <link rel="stylesheet" type="text/css" href="veebileht.css">
-    <link rel="stylesheet" type="text/css" href="kontaks.css">
+    <link rel="stylesheet" type="text/css" href="kontaktcss.css">
     <script src="script.js"></script>
     <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_aH-w1XPXaeqa6_z5CHVbflk_0MYdK7I&callback=initMap"></script>
@@ -26,20 +26,39 @@
 
     <div class="row">
         <div class="column">
-            <img src="./pildid/kontakt.png" class="kontakt-pilt" alt="kontakt">
-            <p>E-post: pirogov@pirogov.ee <br>
-                Telefon: (+372) 5149785x <br>
-                Aadress: Lossi 3, 51003 Tartu <br>
-            </p>
-        </div>
-        <div class="column">
-            <h2>Google Map</h2>
-            <div id="map">
+            <div class="alapealkiri">
+                <h2>Meie liikmed</h2>
+            </div>
+            <div class="liikmed">
+                <div class="Telliskivi">
+                    <img src="pildid/tellis.jpg">
+                    <p>Kevin Telliskivi</p>
+                </div>
+                <div class="Rummo">
+                    <img src="pildid/rummo.jpg">
+                    <p>Kaarel Rummo</p>
+                </div>
+                <div class="Johanna">
+                    <img src="pildid/johanna.jpg">
+                    <p>Johanna Martin</p>
+                </div>
             </div>
         </div>
+        <div class="column">
+            <img src="./pildid/kontakt.png" class="kontakt-pilt" alt="kontakt">
+            <p>E-post: pirogov@pirogov.ee <br>
+                Telefon: (+372) 5149785000 <br>
+                Aadress: Lossi 3, 51003 Tartu <br>
+            </p>
+            <h2>Google Map</h2>
+            <div><iframe src="https://maps.google.com/maps?q=pirogov%20park&t=&z=17&ie=UTF8&iwloc=&output=embed" class="map"></iframe></div>
+        </div>
+    </div>
     </div>
 
-
+    <div class="lõpp">
+        <h2>Sponsors:</h2>
+    </div>
 </body>
 
 </html>

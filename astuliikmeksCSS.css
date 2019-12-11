@@ -1,12 +1,4 @@
-.tekst{
-    position: sticky;
-    margin-left: 50px;
-    width: 500px;
-  }
 
-  .alapealkiri{
-    text-align: center;
-  }
 .Slidid img{
     width:600px;
     height: 400px;
@@ -20,6 +12,7 @@
     overflow: auto;
     table-layout: fixed;
 }
+
 .tekst {
     display: table-cell;
     text-align: left;
@@ -27,6 +20,7 @@
     float: left;
     width: auto;
 }
+
 .Slidid {
     display: table-cell;
     text-align: center;
@@ -36,7 +30,11 @@
     
 }
 
+<<<<<<< HEAD
  .sisu1 img{
+=======
+.liikmed img{
+>>>>>>> 47df1b72d7a814eaa4cf3d6b8bc509559bf8c8fc
      width: 250px;
      height: 250px;
      border-radius: 50%;
@@ -45,6 +43,7 @@
      align-content: center;
  }
  
+<<<<<<< HEAD
  .liikmed{ 
     display: table; 
 }
@@ -61,6 +60,19 @@
     height: 100%;
     float:left;
 
+=======
+.liikmed{
+    width:400px;
+    margin:0 auto;
+    display: grid;
+    align-items: center;
+ }
+.liikmed p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    float: right;
+    vertical-align: center;
+>>>>>>> 47df1b72d7a814eaa4cf3d6b8bc509559bf8c8fc
  }
  .sisu2{
     position: relative;

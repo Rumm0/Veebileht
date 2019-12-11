@@ -1,0 +1,46 @@
+.map {
+    height: 600px;
+    width: 500px;
+  }
+  
+.kontakt-pilt {
+    width: 150px;
+    height: 120px;
+  }
+
+.column {
+    flex: 50%;
+    margin: 40px;
+    line-height: 30px ;
+  }
+.row {
+    display: flex;
+}
+
+.tekst{
+    position: sticky;
+    margin-left: 50px;
+    width: 500px;
+  }
+
+.liikmed img{
+     width: 250px;
+     height: 250px;
+     border-radius: 50%;
+     object-fit: cover;
+}
+
+.liikmed {
+    width:400px;
+    margin:0 auto;
+    display: grid;
+    align-items: center;
+ }
+
+.liikmed p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    float: right;
+    vertical-align: center;
+ }
+
